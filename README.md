@@ -1,24 +1,12 @@
-# README
+# Brewery App 
+A simple brewery finder application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Set up
+Clone this repo to your desktop and run ```bundle install``` to install its dependencies.
 
-Things you may want to cover:
+## Usage
+After installing the dependencies, go to the root directory of the project and run ```rails db:migrate```. 
+To start the application run ```rails server -p 3001```and```rails s```. You will be able to access if at localhost:3001.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Demo
+[Live Demo](https://breweryfinderapp.herokuapp.com/)
